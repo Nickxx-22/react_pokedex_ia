@@ -19,18 +19,18 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
-        <Link  to="/">Inicio</Link >
-        <Link  to="/page1">Pagina 1</Link >
-        <Link  to="/page2/2">Pagina producto</Link >
+        <Link to="/">Inicio</Link >
+        <Link to="/page1">Pagina 1</Link >
+        <Link to="/page2/2">Pagina producto</Link >
       </div>
 
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/page1" element={<Page1/>}/>
-        <Route path="/page2/:param" element={<Page2/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/page1" element={<Page1 />} />
+        <Route path="/page2/:param" element={<Page2 />} />
       </Routes>
 
-      
+
     </>
   )
 }
